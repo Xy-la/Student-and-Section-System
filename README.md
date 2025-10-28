@@ -122,7 +122,8 @@ The Student and Section System is a web-based management platform designed to or
 
 Open the system in your web browser.
 
-Navigate to the Student or Section page from the main menu. Use the Add Form to input details (student or section). Click Save to store data in the database. View, Edit, or Delete records from the displayed table. Manage both modules independently for organized data handling.
+Navigate to the Student or Section page from the main menu. Use the Add Form to input details (student or section).
+Click Save to store data in the database. View, Edit, or Delete records from the displayed table. Manage both modules independently for organized data handling.
 
 Example actions:
 Add new student ➜ Fill form ➜ Save ➜ Data appears in student list.
