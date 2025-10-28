@@ -116,7 +116,6 @@ The Student and Section System is a web-based management platform designed to or
    git clone https://github.com/zylaLumaad/student-section-system.git
 ````
 
----
 
 ## 💡 Usage
 
@@ -148,4 +147,3 @@ This project is licensed under the **MIT License**.
 ```
 
 ---
-
