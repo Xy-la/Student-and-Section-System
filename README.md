@@ -17,13 +17,16 @@ The Student and Section System is a web-based management platform designed to or
 ### 🧑‍🎓 Student Module
 
 **Input Fields**
-- ID  
-- Last Name  
-- Full Name  
-- Middle Initial  
-- Email  
-- Contact  
-- Section  
+
+| Field Name     | Description                          |
+|----------------|--------------------------------------|
+| ID             | Unique identifier for each student   |
+| Last Name      | Student’s last name                  |
+| Full Name      | Student’s complete name              |
+| Middle Initial | Student’s middle initial             |
+| Email          | Student’s email address              |
+| Contact        | Student’s contact number             |
+| Section        | Dropdown to select assigned section  |
 
 **Functions**
 - Add Student  
@@ -37,8 +40,11 @@ The Student and Section System is a web-based management platform designed to or
 ### 🏷️ Section Module
 
 **Input Fields**
-- Section  
-- Course Year  
+
+| Field Name   | Description                          |
+|---------------|--------------------------------------|
+| Section       | Name of the section (e.g., BSIT 3A) |
+| Course Year   | Course and year level of the section | 
 
 **Functions**
 - Add Section  
@@ -62,29 +68,43 @@ The Student and Section System is a web-based management platform designed to or
 ---
 
 ## 💻 Technology Used
-- Frontend: HTML, CSS, JavaScript  
-- Backend: PHP  
-- Database: MySQL  
-- Server: XAMPP (Apache & MySQL)  
-- Version Control: GitHub  
+
+| Technology  | Purpose |
+|--------------|----------|
+| **HTML**     | To design and structure the web pages of the system. |
+| **CSS**      | To style and enhance the visual layout of the interface. |
+| **JavaScript** | To add interactivity and dynamic behavior to forms and tables. |
+| **PHP**      | To handle backend logic, CRUD operations, and database connectivity. |
+| **MySQL**    | To store and manage all student and section records. |
+| **XAMPP**    | To provide a local server environment (Apache and MySQL). |
+| **GitHub**   | To host and manage the project repository for version control. |
 
 ---
 
 ## 🗄️ Database Structure
 
-### student_table
-- id – INT (Primary Key)  
-- lastname – VARCHAR(50)  
-- fullname – VARCHAR(100)  
-- md_initial – VARCHAR(5)  
-- email – VARCHAR(100)  
-- contact – VARCHAR(20)  
-- section_id – INT (Foreign Key)
+### 🧑‍🎓 student_table
 
-### section_table
-- section_id – INT (Primary Key)  
-- section – VARCHAR(50)  
-- course_year – VARCHAR(50)
+| Column        | Type          | Description                         |
+|----------------|---------------|-------------------------------------|
+| id             | INT (Primary Key) | Unique ID for each student record |
+| lastname       | VARCHAR(50)   | Student’s last name                |
+| fullname       | VARCHAR(100)  | Student’s complete name            |
+| md_initial     | VARCHAR(5)    | Student’s middle initial           |
+| email          | VARCHAR(100)  | Student’s email address            |
+| contact        | VARCHAR(20)   | Student’s contact number           |
+| section_id     | INT (Foreign Key) | References the section_table     |
+
+---
+
+### 🏷️ section_table
+
+| Column        | Type          | Description                          |
+|----------------|---------------|--------------------------------------|
+| section_id     | INT (Primary Key) | Unique ID for each section record |
+| section        | VARCHAR(50)   | Name of the section (e.g., BSIT 3A) |
+| course_year    | VARCHAR(50)   | Course and year level of the section |
+
 
 ---
 
