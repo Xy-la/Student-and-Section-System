@@ -126,11 +126,6 @@ Add new student ➜ Fill form ➜ Save ➜ Data appears in student list.
 Edit student ➜ Update details ➜ Save ➜ Changes reflected immediately.
 
 🖼️ Screenshots / Code Snippets
-<?php
-include('connection.php');
-$query = "SELECT * FROM students";
-$result = mysqli_query($conn, $query);
-?>
 
 👩‍💻 Contributors
 
