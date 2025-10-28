@@ -114,17 +114,29 @@ The Student and Section System is a web-based management platform designed to or
 
    ```bash
    git clone https://github.com/zylaLumaad/student-section-system.git
-````
-
----
 
 💡 Usage
 
 Open the system in your web browser.
 
-Navigate to the Student or Section page from the main menu. Use the Add Form to input details (student or section).
-Click Save to store data in the database. View, Edit, or Delete records from the displayed table. Manage both modules independently for organized data handling.
+Navigate to the Student or Section page from the main menu. Use the Add Form to input details (student or section). Click Save to store data in the database. View, Edit, or Delete records from the displayed table. Manage both modules independently for organized data handling.
 
 Example actions:
 Add new student ➜ Fill form ➜ Save ➜ Data appears in student list.
 Edit student ➜ Update details ➜ Save ➜ Changes reflected immediately.
+
+🖼️ Screenshots / Code Snippets
+<?php
+include('connection.php');
+$query = "SELECT * FROM students";
+$result = mysqli_query($conn, $query);
+?>
+
+👩‍💻 Contributors
+
+Zyla Rea Lumaad – Developer
+Kristine Anne Carpio – Collaboration
+
+📜 License
+
+This project is licensed under the MIT License.
