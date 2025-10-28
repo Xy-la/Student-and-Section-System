@@ -113,7 +113,7 @@ The Student and Section System is a web-based management platform designed to or
 1. **Clone or Download** this repository:
 
    ```bash
-   git clone https://github.com/Xy-la/student and section system.git
+   git clone https://github.com/Xy-la/student and section system.git](https://github.com/Xy-la/Student-and-Section-System.git
 
 💡 Usage
 
