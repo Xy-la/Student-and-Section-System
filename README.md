@@ -43,7 +43,7 @@ The Student and Section System is a web-based management platform designed to or
 
 | Field Name   | Description                          |
 |---------------|--------------------------------------|
-| Section       | Name of the section (e.g., BSIT 3A) |
+| Section       | Name of the section (CIT A,B,C,D) |
 | Course Year   | Course and year level of the section | 
 
 **Functions**
@@ -102,7 +102,7 @@ The Student and Section System is a web-based management platform designed to or
 | Column        | Type          | Description                          |
 |----------------|---------------|--------------------------------------|
 | section_id     | INT (Primary Key) | Unique ID for each section record |
-| section        | VARCHAR(50)   | Name of the section (e.g., BSIT 3A) |
+| section        | VARCHAR(50)   | Name of the section (CIT A, B,C,D) |
 | course_year    | VARCHAR(50)   | Course and year level of the section |
 
 
